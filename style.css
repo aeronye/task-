@@ -1,0 +1,49 @@
+body{
+    padding: 100px;
+    background: lightgray;
+}
+.mainbox{
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+input{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding:10px;
+    border-radius: 20px;
+    border: 0.2px solid blueviolet ;
+}
+button{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: blueviolet;
+    color: white;
+    transition: ease 0.5s;
+}
+button:hover{
+    background: white;
+    color: blueviolet;
+    cursor: pointer;
+    border: 0.2px solid blueviolet;
+}
+ul{
+    background:blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+}
+.task-item{
+    list-style-type: none;
+    color: white;
+    margin: 10px 5px;
+}
